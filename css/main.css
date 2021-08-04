@@ -1,6 +1,7 @@
 body{
-background-color: rgb(255, 194, 108)
+background-color: rgb(255, 194, 108) !important
 }
+
 .photo{
     width: 300px;
 }
