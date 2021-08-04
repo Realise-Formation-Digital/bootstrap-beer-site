@@ -57,7 +57,7 @@ body {
   }
   
   .button:hover {
-    background-color: rgb(255, 249, 249);
+    background-color: rgb(85, 103, 204);
   }
   
   @media screen and (max-width: 650px) {
