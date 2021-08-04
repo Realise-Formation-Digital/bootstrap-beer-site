@@ -1,21 +1,17 @@
 
 function getText () {
-    let inputPseudo;
-    let inputCommentaires;
-    let inputQuantité;
-    let resultHTML;
-    let resultclean;
-    let resultfunction;
+    let pseudo;
+    let commentaire;
+    let quantite;
+   
 
-    resultHTML = document.getElementById("Pseudo");
-    resultHTML = document.getElementById("Commentaires");
-    resultHTML = document.getElementById("Quantité");
+    pseudo = document.getElementById("pseudo");
+    commentaire = document.getElementById("commentaires");
+    quantite = document.getElementById("quantite");
     
 
 
-    console.log (Pseudo)
-    console.log (Commentaires)
-    console.log (Quantité)
-
-
-    
+    console.log (pseudo.value)
+    console.log (commentaire.value)
+    console.log (quantite.value)
+}
