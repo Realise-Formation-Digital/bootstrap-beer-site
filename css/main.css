@@ -1,0 +1,21 @@
+body{
+background-color: rgb(255, 194, 108)
+}
+.photo{
+    width: 300px;
+}
+
+#title{
+    text-align: center;
+    margin-top: 75px;
+
+}
+
+#centre{
+    text-align: center;
+    margin-top: 30px;
+}
+#espace {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
