@@ -17,8 +17,7 @@ function generateBeers(beerList) {
 
         //Create beer container
         let container = document.createElement('div');
-        container.classList.add("container");
-        container.classList.add("card");
+        container.classList.add("container", "card", "bg-dark", "text-light");
         divContent.appendChild(container);
 
         //Create beer row 1
@@ -38,7 +37,7 @@ function generateBeers(beerList) {
                     col.innerHTML = "<b>" + beerList[i].name + "</b><br><span>" + beerList[i].tagline + "</span>";
                     break;
                 case 1 :
-                    col.innerHTML = "<span> alc% :" + beerList[i].abv + "</span><br><span> Brassée en : " + beerList[i].first_brewed + "</span>";
+                    col.innerHTML = "<span> alc% : " + beerList[i].abv + "</span><br><span> Brassée en : " + beerList[i].first_brewed + "</span>";
                     break;
                 case 2 :
                     col.innerHTML = "<img src='" + beerList[i].image_url + "' class='picture'>"
@@ -48,7 +47,7 @@ function generateBeers(beerList) {
 
         //Create beer row 2
         let row2 = document.createElement('div');
-        row.classList.add("row");
+        row2.classList.add("row", "rowSpace");
         container.appendChild(row2);
 
         //1 col in row2
