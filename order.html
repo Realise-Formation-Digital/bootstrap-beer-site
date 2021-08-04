@@ -15,11 +15,11 @@
 
     <div class="container  p-3 mb-2 bg-success text-white">
         <div class="row align-items-start">
-            <div class="mb-3">
+            <div id="pseudo" class="mb-3">
                <label for="exampleFormControlInput1" class="form-label"  placeholder="pseudo"><ins>Pseudo</ins> </label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Pseudo">
               </div>
-              <div class="mb-3">
+              <div id="commentaires" class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label"><ins> Commentaires</ins></label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Commentaires"></textarea>
               </div>
@@ -31,22 +31,16 @@
 
 
             <p>
-                <ins> Cochez les bières que vous voulez:</ins><br />
-                <input type="checkbox" name="frites" id="frites" /> <label for="frites">Heineken</label><br />
-                <input type="checkbox" name="steak" id="steak" /> <label for="steak">Feldschlössen</label><br />
-                <input type="checkbox" name="epinards" id="epinards" /> <label for="epinards">SuperBock</label><br />
-                <input type="checkbox" name="huitres" id="huitres" /> <label for="huitres">8&8</label>
-                <br>
-            
-                
-                
-                <label for="pass">à l'unité</label>
-                <input type="password" name="pass" id="pass" placeholder="quantité" />
-                <br>
-
-                <label for="pass">Packs de 6 bières</label>
-                <input type="password" name="pass" id="pass" placeholder="quantité" />
-
+               <ins>Quantité</ins>
+                <select id="quantité" class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">For</option>
+                    <option value="5">Five</option>
+                    <option value="6">Six</option>
+                  </select>
                 <br>
             </p>
         </form>
@@ -54,18 +48,7 @@
         </p>
         </form>
 
-        <form method="post" action="traitement.php">
-            <p>
-                <label for="ameliorer">
-                    Comment pensez-vous que je puisse améliorer mon site ?
-                </label>
-                <br />
-
-                <textarea name="ameliorer" id="ameliorer" rows="10" cols="50">
-    
-               </textarea>
-            </p>
-        </form>
+       
         <button type="button" class="btn btn-primary btn-lg">Valider Commande</button>
 
     </div>

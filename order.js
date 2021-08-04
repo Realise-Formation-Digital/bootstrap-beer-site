@@ -1,17 +1,21 @@
-// 1. Create the button
-var button = document.createElement("button");
-button.innerHTML = "Do Something";
 
-// 2. Append somewhere
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
+function getText () {
+    let inputPseudo;
+    let inputCommentaires;
+    let inputQuantité;
+    let resultHTML;
+    let resultclean;
+    let resultfunction;
 
-// 3. Add event handler
-button.addEventListener ("click", function() {
-  alert("did something");
-});
+    resultHTML = document.getElementById("Pseudo");
+    resultHTML = document.getElementById("Commentaires");
+    resultHTML = document.getElementById("Quantité");
+    
 
-/* Read 
 
-https://css-tricks.com/use-button-element/
-*/
+    console.log (Pseudo)
+    console.log (Commentaires)
+    console.log (Quantité)
+
+
+    
