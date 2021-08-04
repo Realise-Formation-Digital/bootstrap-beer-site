@@ -1,0 +1,16 @@
+.picture {
+    height : 100px; 
+    width : auto; 
+    display : block; 
+    margin : 0 auto;
+}
+
+.card { 
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rowSpace {
+    padding-top: 30px;
+}
