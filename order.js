@@ -15,3 +15,9 @@ function getText () {
     console.log (commentaire.value)
     console.log (quantite.value)
 }
+
+
+async  function test{
+    const result = await axios.get('https://api.punkapi.com/v2/
+    ')
+}
