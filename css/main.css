@@ -1,0 +1,36 @@
+
+
+
+.carousel-item {
+
+    height: 60em !important;
+}
+
+
+* {
+  box-sizing: border-box !important;
+}
+
+.column {
+  float: left !important;
+  width: 33.33% !important;
+  padding: 5px;
+
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+.btn {
+  width: 100%;
+}
